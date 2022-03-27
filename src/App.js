@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <!-- Navigation bar -->
+
 <nav class="navbar is-link is-fixed-top">
   <div class="navbar-brand">
     <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -50,39 +50,37 @@ function App() {
   </div>
 </nav>
 
-<!-- Header -->
+
 <section class="hero is-link is-fullheight is-fullheight-with-navbar">
   <div class="hero-body">
-    <div class="container">Hello! I am
-      <h1 class="title is-1">
-        Minion Tim
+    <div class="container">Hello! My name is
+      <h1 class="title is-1 bold">
+        Michael Rogers
       </h1>
       <h2 class="subtitle is-3">
-        Full Stack Web Developer
+        I'm a <b>full stack web developer</b>. I mostly focus on the <b>back-end</b> of the web and specialized to make fun and interactive digital experiencs
       </h2>
     </div>
   </div>
 </section>
 
-<!-- About -->
+
 <section class="section" id="about">
-  <!-- Title -->
+
   <div class="section-heading">
-    <h3 class="title is-2">About Me</h3>
+    <h3 class="title is-2 bold">About Me</h3>
     <h4 class="subtitle is-5">Jack of all trades, master of "some"</h4>
     <div class="container">
-      <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
-        field of
-        <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for <strong>Coffee</strong>.
+      <p>Web developer with more than <strong>4 years</strong> of well-rounded experience.
         Looking for an opportunity to work and upgrade, as well as being involved in an organization that
         believes
         in gaining a competitive edge and giving back to the community.</p>
     </div>
   </div>
 
-  <div class="columns has-same-height is-gapless">
+  <div class="columns has-same-height is-gapless aboutcolumns">
     <div class="column">
-      <!-- Profile -->
+
       <div class="card">
         <div class="card-content">
           <h3 class="title is-4">Profile</h3>
@@ -103,32 +101,24 @@ function App() {
               </tr>
               <tr>
                 <td>Email:</td>
-                <td>minion@despicable.me</td>
+                <td>michael_ro48@yahoo.com</td>
               </tr>
             </table>
           </div>
-          <br>
+          <br></br>
           <div class="buttons has-addons is-centered">
-            <a href="#" class="button is-link">Github</a>
-            <a href="#" class="button is-link">LinkedIn</a>
-            <a href="#" class="button is-link">Twitter</a>
-            <a href="#" class="button is-link">CodeTrace</a>
+            <a href="https://github.com/MichaelRogerss" class="button is-link" target="_blank" >Github</a>
+            <a href="https://stackoverflow.com/users/18572887/michael-rogers" class="button is-link" target="_blank">Stackoverflow</a>
+            <a href="https://www.linkedin.com/in/michael-rogers-77484b216/" class="button is-link" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/9to5disappear" class="button is-link" target="_blank">Twitter</a>
+            <a href="#" class="button is-link" target="_blank">CodeTrace</a>
           </div>
         </div>
       </div>
     </div>
+
     <div class="column">
-      <!-- Profile picture -->
-      <div class="card">
-        <div class="card-image">
-          <figure class="image is-4by3">
-            <img src="https://source.unsplash.com/random/1280x960" alt="Placeholder image">
-          </figure>
-        </div>
-      </div>
-    </div>
-    <div class="column">
-      <!-- Skills -->
+
       <div class="card">
         <div class="card-content skills-content">
           <h3 class="title is-4">Skills</h3>
@@ -139,7 +129,7 @@ function App() {
                 <div class="content">
                   <p>
                     <strong>JavaScript:</strong>
-                    <br>
+                    <br></br>
                     <progress class="progress is-primary" value="90" max="100"></progress>
                   </p>
                 </div>
@@ -151,7 +141,7 @@ function App() {
                 <div class="content">
                   <p>
                     <strong>Vue.js:</strong>
-                    <br>
+                    <br></br>
                     <progress class="progress is-primary" value="90" max="100"></progress>
                   </p>
                 </div>
@@ -163,7 +153,7 @@ function App() {
                 <div class="content">
                   <p>
                     <strong>Node.js:</strong>
-                    <br>
+                    <br></br>
                     <progress class="progress is-primary" value="75" max="100"></progress>
                   </p>
                 </div>
@@ -175,7 +165,7 @@ function App() {
                 <div class="content">
                   <p>
                     <strong>HTML5/CSS3</strong>
-                    <br>
+                    <br></br>
                     <progress class="progress is-primary" value="95" max="100"></progress>
                   </p>
                 </div>
@@ -187,7 +177,7 @@ function App() {
                 <div class="content">
                   <p>
                     <strong>Databases</strong>
-                    <br>
+                    <br></br>
                     <progress class="progress is-primary" value="66" max="100"></progress>
                   </p>
                 </div>
@@ -200,8 +190,8 @@ function App() {
   </div>
 </section>
 
-<!-- Skills tags -->
-<!-- <br>
+
+ <br></br>
       <div class="tags custom-tags">
         <span class="tag is-light">Node.js</span><span class="tag is-light">Express.js</span><span class="tag is-light">VueJS</span><span
           class="tag is-light">JavaScript</span><span class="tag is-light">HTML5</span><span class="tag is-light">Canvas</span><span
@@ -210,9 +200,9 @@ function App() {
           class="tag is-light">SASS/SCSS</span><span class="tag is-light">Webpack</span><span class="tag is-light">Git</span><span
           class="tag is-light">ASP.NET Web Forms</span><span class="tag is-light">MSSQL</span><span class="tag is-light">MongoDB</span><span
           class="tag is-light">Apache Cordova</span><span class="tag is-light">Chrome Extensions</span>
-      </div> -->
+      </div>
 
-<!-- Services -->
+
 <section class="section" id="services">
   <div class="section-heading">
     <h3 class="title is-2">Services</h3>
@@ -261,7 +251,7 @@ function App() {
   </div>
 </section>
 
-<!-- Resume -->
+
 <section class="section" id="resume">
   <div class="section-heading">
     <h3 class="title is-2">Resume</h3>
@@ -275,19 +265,19 @@ function App() {
   </div>
 </section>
 
-<!-- Portfolio -->
+
 <section class="section" id="portfolio">
   <div class="container">
     <div class="section-heading">
       <h3 class="title is-2">Portfolio</h3>
       <h4 class="subtitle is-5">My latest works</h4>
     </div>
-    <br>
+    <br></br>
 
     <div class="container portfolio-container">
       <div class="columns">
         <div class="column is-4">
-          <!-- admin -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -303,7 +293,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/admin.png" alt="Admin template screenshot">
+                <img src="../images/admin.png" alt="Admin template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -312,7 +302,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!-- cards -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -328,7 +318,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/cards.png" alt="Cards template screenshot">
+                <img src="../images/cards.png" alt="Cards template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -337,7 +327,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!-- forum -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -353,7 +343,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/forum.png" alt="Hero template screenshot">
+                <img src="../images/forum.png" alt="Hero template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -362,7 +352,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!-- insta album -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -378,7 +368,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/instaalbum.png" alt="Landing template screenshot">
+                <img src="../images/instaalbum.png" alt="Landing template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -387,7 +377,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!-- landing -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -403,7 +393,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/landing.png" alt="Landing template screenshot">
+                <img src="../images/landing.png" alt="Landing template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -415,7 +405,7 @@ function App() {
 
         </div>
         <div class="column is-4">
-          <!-- band -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -431,7 +421,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/band.png" alt="Band template screenshot">
+                <img src="../images/band.png" alt="Band template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -440,7 +430,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!-- cheatsheet -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -456,7 +446,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="https://dummyimage.com/555x255/000/fff" alt="Cheatsheet template screenshot">
+                <img src="https://dummyimage.com/555x255/000/fff" alt="Cheatsheet template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -465,7 +455,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!-- hero -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -481,7 +471,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/hero.png" alt="Hero template screenshot">
+                <img src="../images/hero.png" alt="Hero template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -490,7 +480,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!--kanban -->
+>
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -506,7 +496,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/kanban.png" alt="Kanban template screenshot">
+                <img src="../images/kanban.png" alt="Kanban template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -515,7 +505,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!-- login -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -531,7 +521,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/login.png" alt="Login template screenshot">
+                <img src="../images/login.png" alt="Login template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -542,7 +532,7 @@ function App() {
           </div>
         </div>
         <div class="column is-4">
-          <!-- blog -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -558,7 +548,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/blog.png" alt="Blog template screenshot">
+                <img src="../images/blog.png" alt="Blog template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -567,7 +557,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!-- cover -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -583,7 +573,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/cover.png" alt="Cover template screenshot">
+                <img src="../images/cover.png" alt="Cover template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -592,7 +582,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!--inbox -->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -608,7 +598,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/inbox.png" alt="Inbox template screenshot">
+                <img src="../images/inbox.png" alt="Inbox template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -617,7 +607,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!--kanban with functional search-->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -633,7 +623,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="../images/kanban2.png" alt="Kanban template screenshot">
+                <img src="../images/kanban2.png" alt="Kanban template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -642,7 +632,7 @@ function App() {
                 Code</a>
             </footer>
           </div>
-          <!--tabs-->
+
           <div class="card">
             <header class="card-header">
               <p class="card-header-title">
@@ -658,7 +648,7 @@ function App() {
             </header>
             <div class="card-content">
               <figure class="image">
-                <img src="https://dummyimage.com/555x255/000/fff" alt="modal-cards template screenshot">
+                <img src="https://dummyimage.com/555x255/000/fff" alt="modal-cards template screenshot"></img>
               </figure>
             </div>
             <footer class="card-footer">
@@ -673,8 +663,8 @@ function App() {
   </div>
 </section>
 
-<!-- Achievement Level -->
-<!-- <section class="section">
+
+ <section class="section">
   <nav class="level">
     <div class="level-item has-text-centered">
       <div>
@@ -701,17 +691,17 @@ function App() {
       </div>
     </div>
   </nav>
-</section> -->
+</section>
 
 
-<!-- Contact -->
+
 <section class="section" id="contact">
   <div class="container">
     <div class="section-heading">
       <h3 class="title is-2">Contact</h3>
       <h4 class="subtitle is-5">Get in touch</h4>
     </div>
-    <br>
+    <br></br>
 
     <div class="columns">
       <div class="column is-6 is-offset-3">
@@ -719,14 +709,14 @@ function App() {
           <div class="field">
             <label class="label">Name</label>
             <div class="control">
-              <input class="input" type="text" placeholder="Text input">
+              <input class="input" type="text" placeholder="Text input"></input>
             </div>
           </div>
 
           <div class="field">
             <label class="label">Email</label>
             <div class="control has-icons-left">
-              <input class="input" type="email" placeholder="Email input" value="">
+              <input class="input" type="email" placeholder="Email input" value=""></input>
               <span class="icon is-small is-left">
                 <i class="fas fa-envelope"></i>
               </span>
@@ -755,7 +745,7 @@ function App() {
   </div>
 </section>
 
-<!-- Footer -->
+
 <footer class="footer">
   <div class="section-heading">
     <p>
