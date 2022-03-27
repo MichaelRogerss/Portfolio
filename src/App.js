@@ -4,7 +4,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Full-Stack Web Developer
@@ -17,7 +16,20 @@ function App() {
         >
           Learn Reacttt
         </a>
-      </header>
+        <div class="columns">
+        <div class="column">
+          First column
+        </div>
+        <div class="column">
+          Second column
+        </div>
+        <div class="column">
+          Third column
+        </div>
+        <div class="column">
+          Fourth column
+        </div>
+      </div>
     </div>
   );
 }
