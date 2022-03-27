@@ -7,3 +7,7 @@
         menu.classList.toggle('is-active');
     });
 })();
+
+$(document).ready(function (){
+            console.log("done")
+        });
