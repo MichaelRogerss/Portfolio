@@ -5,9 +5,11 @@ $(document).ready(function (){
               $(window).scroll(function () {
                 if ($(window).scrollTop() > 280) {
                   $('.navbar').removeClass('is-fixed-top');
+                  $('.uparrowframe').hide();
                 }
                 if ($(window).scrollTop() < 281) {
                   $('.navbar').addClass('is-fixed-top');
+                  $('.uparrowframe').show();
                 }
             });
 
