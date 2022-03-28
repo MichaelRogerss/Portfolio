@@ -2,6 +2,15 @@
 
 $(document).ready(function (){
 
+              $(window).scroll(function () {
+                if ($(window).scrollTop() > 280) {
+                  $('.navbar').removeClass('is-fixed-top');
+                }
+                if ($(window).scrollTop() < 281) {
+                  $('.navbar').addClass('is-fixed-top');
+                }
+            });
+
             (function() {
                 var burger = document.querySelector('.burger');
                 var menu = document.querySelector('#'+burger.dataset.target);
