@@ -28,7 +28,7 @@ $(document).ready(function (){
                    scrollTop: $("#"+gotoelement).offset().top
                }, 2000);
            });
-           $(".uparrowframe").first().click(function (){
+           $(".uparrowframe").first().first().click(function (){
               $('html, body').animate({
                              scrollTop: 0
                          }, "slow");
